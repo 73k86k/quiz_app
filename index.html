@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一般常識クイズ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quiz">
+    <h1 class="quiz-title">一般常識クイズ</h1>
+
+    <section id="quiz-screen">
+      <p id="progress" class="progress"></p>
+      <h2 id="question" class="question"></h2>
+      <div id="choices" class="choices"></div>
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <button id="next-btn" class="next-btn" hidden>次の問題へ</button>
+    </section>
+
+    <section id="result-screen" hidden>
+      <p class="result-label">結果</p>
+      <p id="score" class="score"></p>
+      <p id="result-message" class="result-message"></p>
+      <button id="retry-btn" class="next-btn">もう一度挑戦する</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
